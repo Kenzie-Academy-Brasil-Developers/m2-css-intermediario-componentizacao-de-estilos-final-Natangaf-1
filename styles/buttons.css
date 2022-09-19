@@ -1,0 +1,30 @@
+.button-default{
+    height: var(--button-height-default);
+    width: max-content;
+    padding: 0 32px;
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-text-1);
+    background-color: var(--color-grey-4);
+    border: 2px solid var(--color-grey-4);
+    color: var(--color-grey-2);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.button-default:hover{
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-1);
+    border-color: var(--color-grey-3)
+}
+
+.button-default.button-medium{
+  height: var(--button-height-medium);
+  font-size: var(--font-text-2);
+  padding: 0 28px;
+}
+
+.button-default.button-little{
+  height: var(--button-height-little);
+  font-size: var(--font-text-3);
+  padding: 0 24px;
+}
